@@ -1,0 +1,4 @@
+DASHBOARD = 'helpdesk'
+ADD_INSTALLED_APPS = ['sticksdashboard']
+DEFAULT = True
+ADD_EXCEPTIONS = {}
