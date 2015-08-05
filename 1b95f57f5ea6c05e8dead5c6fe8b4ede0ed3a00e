@@ -1,0 +1,8 @@
+Verified+2: Jenkins
+Code-Review+2: Anthony Michon <anthony.michon@eurogiciel.fr>
+Workflow+1: Anthony Michon <anthony.michon@eurogiciel.fr>
+Submitted-by: Jenkins
+Submitted-at: Wed, 05 Aug 2015 14:02:35 +0000
+Reviewed-on: https://review.openstack.org/209479
+Project: stackforge/sticks-dashboard
+Branch: refs/heads/master
