@@ -23,6 +23,5 @@ from sticksdashboard import dashboard
 class TicketsPanel(horizon.Panel):
     name = _("Tickets")
     slug = 'tickets'
-    permissions = ('openstack.roles.admin',)
 
 dashboard.Sticks.register(TicketsPanel)
