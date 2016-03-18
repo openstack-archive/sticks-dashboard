@@ -14,7 +14,7 @@
 #    limitations under the License.
 #
 
-from sticksdashboard.openstack.common import importutils
+from oslo_utils import importutils
 
 
 def import_any(*args):
