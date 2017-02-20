@@ -14,8 +14,6 @@
 #    limitations under the License.
 #
 
-import logging
-
 from django.core.urlresolvers import reverse_lazy
 from django.utils.translation import ugettext_lazy as _
 
@@ -25,9 +23,6 @@ from horizon import tabs
 from sticksdashboard.api import sticks as sticks_api
 from sticksdashboard.tickets import tables as p_tables
 from sticksdashboard.tickets import tabs as p_tabs
-
-
-LOG = logging.getLogger(__name__)
 
 
 class IndexView(tables.DataTableView):
